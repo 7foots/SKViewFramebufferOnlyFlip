@@ -32,6 +32,7 @@ if let scene = GameScene(fileNamed: "GameScene") {
     
     // Solution 1
     // To fix bug, flip view content via CGAffineTransform
+    // Comment next line to see bug
     sceneView.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: -1.0)
     
     // Present the scene
